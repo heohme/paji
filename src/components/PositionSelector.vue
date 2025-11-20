@@ -33,7 +33,7 @@ interface Emits {
   (e: 'update:modelValue', value: Position): void
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 const emit = defineEmits<Emits>()
 
 const positions: PositionInfo[] = [

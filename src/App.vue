@@ -151,7 +151,7 @@ const handleHandClick = (hand: Hand) => {
 }
 
 // 处理手牌悬停
-const handleHandHover = (hand: Hand) => {
+const handleHandHover = (_hand: Hand) => {
   // 可以在这里添加悬停效果
 }
 

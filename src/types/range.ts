@@ -39,7 +39,8 @@ export interface DefenseRange {
 // 位置数据
 export interface PositionData {
   name: string
-  frequency: string
+  frequency?: string
+  description?: string
   RFI?: RFIRange
   [key: string]: any // 支持 vs_BTN, vs_CO 等动态键
 }
